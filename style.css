@@ -1,0 +1,33 @@
+.imgFit {
+    object-fit: contain;
+}
+.cardLink {
+    position: relative;
+    z-index: 1;
+}
+.cardLink a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-indent: -999px;
+    z-index: 2;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.big-square {
+    width: 100vw;
+    height: 500px;
+}
